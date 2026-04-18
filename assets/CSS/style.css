@@ -254,3 +254,33 @@ h1, h2, h3 {
 .listings-hero p {
   color: #cbd5e1;
 }
+/* ===== GENERAL IMAGE CONTROL ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== HOMEPAGE & LISTING CARDS ===== */
+.card img,
+.listing-card img {
+  width: 100%;
+  height: 220px;       /* controls size */
+  object-fit: cover;   /* crops nicely */
+  border-radius: 10px 10px 0 0;
+}
+
+/* ===== PROPERTY PAGE IMAGE (BIG ONE) ===== */
+.property img {
+  width: 100%;
+  max-width: 650px;    /* 🔥 THIS FIXES “GIGANTIC” */
+  height: 380px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 20px auto;   /* centers it */
+}
+
+/* ===== OPTIONAL: MAKE IT EVEN MORE PREMIUM ===== */
+.property img {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
