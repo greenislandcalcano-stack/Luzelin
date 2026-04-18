@@ -2,80 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #0f172a;
-  color: white;
-}
-
-.hero {
-  padding: 100px 20px;
-  text-align: center;
-  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)),
-              url('/assets/images/hero.jpg') center/cover;
-}
-
-.btn {
-  background: gold;
-  color: black;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-}
-.listings-hero {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.listings-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-.listing-card {
-  background: #1e293b;
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
-  color: white;
-  transition: transform 0.2s ease;
-}
-
-.listing-card:hover {
-  transform: scale(1.03);
-}
-
-.listing-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 15px;
-}
-
-.score {
-  background: gold;
-  color: black;
-  padding: 4px 8px;
-  border-radius: 5px;
-  font-weight: bold;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #0f172a;
   color: #ffffff;
 }
 
@@ -105,9 +31,17 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .hero {
   text-align: center;
   padding: 90px 20px 60px;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)),
+              url('/assets/images/hero.jpg') center/cover;
+  border-radius: 0 0 18px 18px;
 }
 
 .hero h1 {
@@ -176,6 +110,7 @@ h1, h2, h3 {
   height: 220px;
   object-fit: cover;
   display: block;
+  border-radius: 14px 14px 0 0;
 }
 
 .card h3,
@@ -215,11 +150,13 @@ h1, h2, h3 {
 
 .property img {
   width: 100%;
-  max-width: 760px;
-  height: auto;
-  border-radius: 14px;
-  margin: 18px auto 20px;
+  max-width: 560px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 24px auto;
   display: block;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .property p {
@@ -253,49 +190,4 @@ h1, h2, h3 {
 .cta p,
 .listings-hero p {
   color: #cbd5e1;
-}
-/* ===== GENERAL IMAGE CONTROL ===== */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* ===== HOMEPAGE & LISTING CARDS ===== */
-.card img,
-.listing-card img {
-  width: 100%;
-  height: 220px;       /* controls size */
-  object-fit: cover;   /* crops nicely */
-  border-radius: 10px 10px 0 0;
-}
-
-/* ===== PROPERTY PAGE IMAGE (BIG ONE) ===== */
-.property img {
-  width: 100%;
-  max-width: 650px;    /* 🔥 THIS FIXES “GIGANTIC” */
-  height: 380px;
-  object-fit: cover;
-  border-radius: 14px;
-  margin: 20px auto;   /* centers it */
-}
-
-/* ===== OPTIONAL: MAKE IT EVEN MORE PREMIUM ===== */
-.property img {
-  width: 100%;
-  max-width: 650px;
-  height: 380px;
-  object-fit: cover;
-  border-radius: 14px;
-  margin: 20px auto;
-  display: block;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
-.property img {
-  width: 100%;
-  max-width: 700px;
-  height: 420px;
-  object-fit: cover;
-  border-radius: 16px;
-  margin: 30px auto;
 }
