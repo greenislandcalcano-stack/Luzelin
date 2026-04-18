@@ -282,6 +282,13 @@ img {
 
 /* ===== OPTIONAL: MAKE IT EVEN MORE PREMIUM ===== */
 .property img {
+  width: 100%;
+  max-width: 650px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 20px auto;
+  display: block;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 .property img {
