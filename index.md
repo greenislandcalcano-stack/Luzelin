@@ -7,7 +7,7 @@ permalink: /
 <section class="hero hero--luzelin">
   <h1>Luzelin Stays</h1>
   <p class="lead">
-    A curated collection of unforgettable stays across Airbnb, Vrbo, Hotels.com and beyond.
+    A curated collection of unforgettable stays for families, couples, and travelers seeking comfort, style, and smart booking options.
   </p>
   <a href="/listings/" class="btn btn--gold">Explore Destinations</a>
 </section>
@@ -18,24 +18,24 @@ permalink: /
   <div class="grid">
 
     <div class="card">
-      <img src="/assets/images/beach.jpg" alt="Beachfront stays">
+      <img src="/assets/images/beach-front-caribbean.jpg" alt="Beachfront stays">
       <h3>Beachfront Escapes</h3>
       <p>Handpicked oceanfront homes with breathtaking views.</p>
-      <a href="/listings/beachfront/">View Listings</a>
+      <a href="/listings/samana-beach-villa/">View Listings</a>
     </div>
 
     <div class="card">
-      <img src="/assets/images/city.jpg" alt="City stays">
+      <img src="/assets/images/new-orleans-tours.jpg" alt="City stays">
       <h3>City Experiences</h3>
-      <p>Top-rated apartments in the heart of major cities.</p>
-      <a href="/listings/city/">View Listings</a>
+      <p>Top-rated apartments and stylish stays near vibrant urban attractions.</p>
+      <a href="/listings/new-orleans-loft/">View Listings</a>
     </div>
 
     <div class="card">
-      <img src="/assets/images/luxury.jpg" alt="Luxury stays">
+      <img src="/assets/images/caribbean-chalett.jpg" alt="Luxury stays">
       <h3>Luxury Retreats</h3>
-      <p>Exclusive villas and high-end stays.</p>
-      <a href="/listings/luxury/">View Listings</a>
+      <p>Exclusive villas and premium properties for unforgettable escapes.</p>
+      <a href="/listings/punta-cana-suite/">View Listings</a>
     </div>
 
   </div>
